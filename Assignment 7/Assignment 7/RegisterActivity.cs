@@ -29,20 +29,22 @@ namespace Assignment_7
             // Create your application here
             SetContentView(Resource.Layout.RegisterLyt);
 
-            databaseManager dbMan = new databaseManager();
+           
             et_username = FindViewById<EditText>(Resource.Id.edttxtUser);
             et_email = FindViewById<EditText>(Resource.Id.edttxtMail);
             et_password = FindViewById<EditText>(Resource.Id.edttxtPass);
             btn_register = FindViewById<Button>(Resource.Id.btn_register);
 
-            dbMan.buildClient();
-
+            
+            
             btn_register.Click += Btn_register_Click;
         }
 
         private async void Btn_register_Click(object sender, EventArgs e)
         {
+            // databaseManager dbMan = new databaseManager();
             databaseManager dbMan = new databaseManager();
+            kinveyClient = dbMan.buildClient();
             bool success = await dbMan.registerUser(et_username.Text, et_password.Text);
             if (success == true)
             {

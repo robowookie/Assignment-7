@@ -22,7 +22,7 @@ namespace Assignment_7
         string appSecret = "68a5e8df969642d9b0050d9995dbca28";
         string tblName = "ReceiptTbl";
 
-        public void buildClient()
+        public Client buildClient()
         {
             kinveyClient = new Client.Builder(appKey, appSecret)
             .setLogger(delegate (string msg) { Console.WriteLine(msg); })
@@ -34,6 +34,8 @@ namespace Assignment_7
             {
                 kinveyClient.User().Logout();
             }
+
+            return kinveyClient;
         }
 
         public async void addItem(string user, string business, DateTime dateAndTime, string taxInvoice,
@@ -123,6 +125,7 @@ namespace Assignment_7
                 {
 
                     string temp = ex.Message.ToString();
+                    Console.WriteLine("TESTING REGISTRATION: " + temp);
                     return false;
                 }
             }
