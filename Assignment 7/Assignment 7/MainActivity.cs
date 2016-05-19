@@ -34,6 +34,12 @@ namespace Assignment_7
             dbMan.buildClient();
 
             btn_Login.Click += Btn_Login_Click;
+            btn_Register.Click += Btn_Register_Click;
+        }
+
+        private void Btn_Register_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         private async void Btn_Login_Click(object sender, EventArgs e)
