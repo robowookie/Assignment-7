@@ -39,17 +39,16 @@ namespace Assignment_7
 
         private void Btn_Register_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            StartActivity(typeof(RegisterActivity));
         }
 
         private async void Btn_Login_Click(object sender, EventArgs e)
         {
-            
             databaseManager dbMan = new databaseManager();
             bool success = await dbMan.loginUser(edttxtUser.Text, edttxtPass.Text);
-            if (success == false)
+            if (success == true)
             {
-                //StartActivity(typeof());
+                StartActivity(typeof(ListActivity));
             }
         }
     }
