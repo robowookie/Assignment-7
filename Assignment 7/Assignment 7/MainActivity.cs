@@ -44,9 +44,10 @@ namespace Assignment_7
 
         private async void Btn_Login_Click(object sender, EventArgs e)
         {
+            
             databaseManager dbMan = new databaseManager();
             bool success = await dbMan.loginUser(edttxtUser.Text, edttxtPass.Text);
-            if (success == true)
+            if (success == false)
             {
                 //StartActivity(typeof());
             }
