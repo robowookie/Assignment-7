@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component format="1" id="kinvey" is-shell="true">
+  <name>Kinvey SDK</name>
+  <publisher>Kinvey, Inc.</publisher>
+  <publisher-url>http://www.kinvey.com</publisher-url>
+  <version>1.6.9</version>
+  <summary>Add mBaaS to your apps in minutes.</summary>
+  <packages>
+    <package id="Kinvey-Android" version="1.6.9" framework="android" />
+    <package id="Kinvey" version="1.6.9" framework="mobile" />
+    <package id="Kinvey-ios" version="1.6.9" framework="ios-unified" />
+  </packages>
+  <screenshots>
+    <img src="screenshots/screenshot1.png" title="screenshot1" />
+    <img src="screenshots/screenshot2.png" title="screenshot2" />
+  </screenshots>
+  <samples>
+    <sample id="TaskyAndroid">
+      <name>Android Sample</name>
+      <summary>Android Sample</summary>
+    </sample>
+    <sample id="TaskyiOS">
+      <name>iOS Sample</name>
+      <summary>iOS Sample</summary>
+    </sample>
+  </samples>
+</component>

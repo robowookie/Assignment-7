@@ -1,0 +1,45 @@
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\Assignment 7.dll
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\Assignment 7.pdb
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\Assignment_7.Assignment_7.apk
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\Assignment_7.Assignment_7-Signed.apk
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\Kinvey-Utils.dll
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\Kinvey-Xamarin-Android.dll
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\Kinvey-Xamarin.dll
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\ModernHttpClient.dll
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\Newtonsoft.Json.dll
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\OkHttp.dll
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\Remotion.Linq.dll
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\RestSharp.Portable.dll
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\SQLite.Net.Async.dll
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\SQLite.Net.dll
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\SQLite.Net.Platform.XamarinAndroid.dll
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\Xamarin.GooglePlayServices.Base.dll
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\Xamarin.GooglePlayServices.Gcm.dll
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\ModernHttpClient.dll.mdb
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\Newtonsoft.Json.xml
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\Remotion.Linq.xml
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\obj\Debug\Assignment 7.csprojResolveAssemblyReference.cache
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\obj\Debug\Assignment 7.dll
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\obj\Debug\Assignment 7.pdb
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\obj\Debug\android\bin\Assignment_7.Assignment_7.apk
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\obj\Debug\res\layout\costumrw.xml
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\obj\Debug\res\layout\listlyt.xml
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\obj\Debug\res\layout\registerlyt.xml
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\obj\Debug\res\layout\saverecordlyt.xml
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\obj\Debug\res\layout\main.xml
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\obj\Debug\res\values\strings.xml
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\obj\Debug\res\drawable\icon.png
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\obj\Debug\R.cs.flag
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\obj\Debug\uploadflags.txt
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\obj\Debug\Assignment 7.dll.mdb
+C:\Users\littl_000\documents\visual studio 2015\Projects\Assignment 7\Assignment 7\bin\Debug\Assignment 7.dll.mdb
