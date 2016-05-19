@@ -130,8 +130,10 @@
   <ItemGroup>
     <Compile Include="dataAdapter.cs" />
     <Compile Include="databaseManager.cs" />
+    <Compile Include="ListActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="ReceiptClass.cs" />
+    <Compile Include="RegisterActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

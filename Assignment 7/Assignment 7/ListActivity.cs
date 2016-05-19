@@ -20,6 +20,7 @@ namespace Assignment_7
             base.OnCreate(savedInstanceState);
 
             // Create your application here
+            SetContentView(Resource.Layout.ListLyt);
         }
     }
 }

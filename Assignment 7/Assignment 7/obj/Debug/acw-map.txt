@@ -2,10 +2,18 @@ Assignment_7.dataAdapter, Assignment 7;md505a838b87c199035c6a8a2c7cdbf309f.dataA
 Assignment_7.dataAdapter, Assignment 7, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md505a838b87c199035c6a8a2c7cdbf309f.dataAdapter
 Assignment_7.dataAdapter;md505a838b87c199035c6a8a2c7cdbf309f.dataAdapter
 assignment_7.dataAdapter;md505a838b87c199035c6a8a2c7cdbf309f.dataAdapter
+Assignment_7.ListActivity, Assignment 7;md505a838b87c199035c6a8a2c7cdbf309f.ListActivity
+Assignment_7.ListActivity, Assignment 7, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md505a838b87c199035c6a8a2c7cdbf309f.ListActivity
+Assignment_7.ListActivity;md505a838b87c199035c6a8a2c7cdbf309f.ListActivity
+assignment_7.ListActivity;md505a838b87c199035c6a8a2c7cdbf309f.ListActivity
 Assignment_7.MainActivity, Assignment 7;md505a838b87c199035c6a8a2c7cdbf309f.MainActivity
 Assignment_7.MainActivity, Assignment 7, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md505a838b87c199035c6a8a2c7cdbf309f.MainActivity
 Assignment_7.MainActivity;md505a838b87c199035c6a8a2c7cdbf309f.MainActivity
 assignment_7.MainActivity;md505a838b87c199035c6a8a2c7cdbf309f.MainActivity
+Assignment_7.RegisterActivity, Assignment 7;md505a838b87c199035c6a8a2c7cdbf309f.RegisterActivity
+Assignment_7.RegisterActivity, Assignment 7, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md505a838b87c199035c6a8a2c7cdbf309f.RegisterActivity
+Assignment_7.RegisterActivity;md505a838b87c199035c6a8a2c7cdbf309f.RegisterActivity
+assignment_7.RegisterActivity;md505a838b87c199035c6a8a2c7cdbf309f.RegisterActivity
 KinveyXamarinAndroid.KinveyGCMService, Kinvey-Xamarin-Android;md5ac94a677a11273e2eafc60527165404e.KinveyGCMService
 KinveyXamarinAndroid.KinveyGCMService, Kinvey-Xamarin-Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5ac94a677a11273e2eafc60527165404e.KinveyGCMService
 KinveyXamarinAndroid.KinveyGCMService;md5ac94a677a11273e2eafc60527165404e.KinveyGCMService
