@@ -2,26 +2,28 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="bottom">
     <ListView
         android:minWidth="25px"
         android:minHeight="25px"
         android:layout_width="match_parent"
-        android:layout_height="480.0dp"
+        android:layout_height="wrap_content"
         android:id="@+id/listView1" />
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
         <Button
             android:text="Search"
-            android:layout_width="188.5dp"
+            android:layout_width="196.5dp"
             android:layout_height="wrap_content"
             android:id="@+id/button1" />
         <Button
             android:text="Add New"
             android:layout_width="190.0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/button2" />
+            android:id="@+id/button2"
+            android:layout_marginLeft="0.0dp" />
     </LinearLayout>
 </LinearLayout>
