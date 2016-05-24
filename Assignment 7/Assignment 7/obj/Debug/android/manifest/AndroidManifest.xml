@@ -7,6 +7,7 @@
   <application android:label="Assignment_7" android:name="mono.android.app.Application" android:allowBackup="true" android:debuggable="true">
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <activity android:label="AddActivity" android:name="md505a838b87c199035c6a8a2c7cdbf309f.AddActivity" />
     <activity android:label="ListActivity" android:name="md505a838b87c199035c6a8a2c7cdbf309f.ListActivity" />
     <activity android:icon="@drawable/icon" android:label="Assignment_7" android:name="md505a838b87c199035c6a8a2c7cdbf309f.MainActivity">
       <intent-filter>

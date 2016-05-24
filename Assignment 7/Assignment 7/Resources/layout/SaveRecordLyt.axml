@@ -1,78 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <EditText
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView1">
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editxtUsNam"
-        android:hint="User Name" />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editxtBsinss"
-        android:hint="Business" />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editxtDatTim"
-        android:hint="Date and Time" />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText1"
-        android:hint="Tax Invoice" />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editxtGST"
-        android:hint="GST#" />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editxtServ"
-        android:hint="Server" />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editxtProdcNam"
-        android:hint="Product Name" />
-    <EditText
-        android:inputType="numberDecimal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editxtCost"
-        android:hint="Cost" />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editxtPhNum"
-        android:hint="Phone #" />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editxtAddrs"
-        android:hint="Address" />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editxtTag"
-        android:hint="Tag" />
-    <Button
-        android:text="Add Photo"
-        android:layout_width="158.5dp"
-        android:layout_height="44.5dp"
-        android:id="@+id/btnAddPht"
-        android:layout_gravity="center"
-        android:background="@android:color/holo_blue_bright"
-        android:textColor="@android:color/background_dark" />
-    <Button
-        android:text="Save"
-        android:layout_width="158.5dp"
-        android:layout_height="41.0dp"
-        android:id="@+id/btnSave"
-        android:layout_gravity="center"
-        android:background="@android:color/holo_green_light"
-        android:textColor="@android:color/background_dark" />
-</LinearLayout>
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editxtUsNam"
+            android:hint="User Name" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editxtBsinss"
+            android:hint="Business" />
+        <DatePicker
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datePicker1"
+            android:datePickerMode="spinner"
+            android:nestedScrollingEnabled="true" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText1"
+            android:hint="Tax Invoice" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editxtGST"
+            android:hint="GST#" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editxtServ"
+            android:hint="Server" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editxtProdcNam"
+            android:hint="Product Name" />
+        <EditText
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editxtCost"
+            android:hint="Cost" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editxtPhNum"
+            android:hint="Phone #" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editxtAddrs"
+            android:hint="Address" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editxtTag"
+            android:hint="Tag" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout1">
+            <Button
+                android:text="Add Photo"
+                android:id="@+id/btnAddPht"
+                android:background="@android:color/holo_blue_bright"
+                android:textColor="@android:color/background_dark"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:text="Save"
+                android:id="@+id/btnSave"
+                android:background="@android:color/holo_green_light"
+                android:textColor="@android:color/background_dark"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnAddPht"
+                android:layout_centerHorizontal="true" />
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_toRightOf="@id/btnAddPht"
+                android:id="@+id/imageView1"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

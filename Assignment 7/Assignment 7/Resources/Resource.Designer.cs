@@ -289,11 +289,11 @@ namespace Assignment_7
 			// aapt resource value: 0x7f070001
 			public const int adjust_width = 2131165185;
 			
-			// aapt resource value: 0x7f07001f
-			public const int btnAddPht = 2131165215;
-			
 			// aapt resource value: 0x7f070020
-			public const int btnSave = 2131165216;
+			public const int btnAddPht = 2131165216;
+			
+			// aapt resource value: 0x7f070021
+			public const int btnSave = 2131165217;
 			
 			// aapt resource value: 0x7f07000f
 			public const int btn_Login = 2131165199;
@@ -311,37 +311,37 @@ namespace Assignment_7
 			public const int button2 = 2131165194;
 			
 			// aapt resource value: 0x7f070017
-			public const int editText1 = 2131165207;
-			
-			// aapt resource value: 0x7f07001d
-			public const int editxtAddrs = 2131165213;
-			
-			// aapt resource value: 0x7f070015
-			public const int editxtBsinss = 2131165205;
-			
-			// aapt resource value: 0x7f07001b
-			public const int editxtCost = 2131165211;
-			
-			// aapt resource value: 0x7f070016
-			public const int editxtDatTim = 2131165206;
+			public const int datePicker1 = 2131165207;
 			
 			// aapt resource value: 0x7f070018
-			public const int editxtGST = 2131165208;
-			
-			// aapt resource value: 0x7f07001c
-			public const int editxtPhNum = 2131165212;
-			
-			// aapt resource value: 0x7f07001a
-			public const int editxtProdcNam = 2131165210;
-			
-			// aapt resource value: 0x7f070019
-			public const int editxtServ = 2131165209;
+			public const int editText1 = 2131165208;
 			
 			// aapt resource value: 0x7f07001e
-			public const int editxtTag = 2131165214;
+			public const int editxtAddrs = 2131165214;
 			
-			// aapt resource value: 0x7f070014
-			public const int editxtUsNam = 2131165204;
+			// aapt resource value: 0x7f070016
+			public const int editxtBsinss = 2131165206;
+			
+			// aapt resource value: 0x7f07001c
+			public const int editxtCost = 2131165212;
+			
+			// aapt resource value: 0x7f070019
+			public const int editxtGST = 2131165209;
+			
+			// aapt resource value: 0x7f07001d
+			public const int editxtPhNum = 2131165213;
+			
+			// aapt resource value: 0x7f07001b
+			public const int editxtProdcNam = 2131165211;
+			
+			// aapt resource value: 0x7f07001a
+			public const int editxtServ = 2131165210;
+			
+			// aapt resource value: 0x7f07001f
+			public const int editxtTag = 2131165215;
+			
+			// aapt resource value: 0x7f070015
+			public const int editxtUsNam = 2131165205;
 			
 			// aapt resource value: 0x7f070012
 			public const int edttxtMail = 2131165202;
@@ -352,6 +352,9 @@ namespace Assignment_7
 			// aapt resource value: 0x7f07000c
 			public const int edttxtUser = 2131165196;
 			
+			// aapt resource value: 0x7f070022
+			public const int imageView1 = 2131165218;
+			
 			// aapt resource value: 0x7f070008
 			public const int listView1 = 2131165192;
 			
@@ -360,6 +363,9 @@ namespace Assignment_7
 			
 			// aapt resource value: 0x7f070003
 			public const int relativeLayout1 = 2131165187;
+			
+			// aapt resource value: 0x7f070014
+			public const int scrollView1 = 2131165204;
 			
 			// aapt resource value: 0x7f070004
 			public const int txtBsnssNm = 2131165188;
