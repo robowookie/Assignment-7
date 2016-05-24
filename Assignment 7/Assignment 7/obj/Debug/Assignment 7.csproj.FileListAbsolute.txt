@@ -85,8 +85,6 @@ C:\Users\littl_000\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\D
 C:\Users\littl_000\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\Debug\res\drawable\icon.png
 C:\Users\littl_000\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\Debug\R.cs.flag
 C:\Users\littl_000\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\Debug\uploadflags.txt
-C:\Users\littl_000\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\Debug\Assignment 7.dll.mdb
-C:\Users\littl_000\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\bin\Debug\Assignment 7.dll.mdb
 C:\Users\toshiba\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\Debug\Assignment 7.dll
 C:\Users\toshiba\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\Debug\Assignment 7.pdb
 C:\Users\toshiba\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\bin\Debug\Assignment 7.dll
@@ -131,3 +129,6 @@ C:\Users\toshiba\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\Deb
 C:\Users\toshiba\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\Debug\uploadflags.txt
 C:\Users\toshiba\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\Debug\Assignment 7.dll.mdb
 C:\Users\toshiba\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\bin\Debug\Assignment 7.dll.mdb
+C:\Users\littl_000\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\Debug\Assignment 7.csprojResolveAssemblyReference.cache
+C:\Users\littl_000\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\Debug\Assignment 7.dll.mdb
+C:\Users\littl_000\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\bin\Debug\Assignment 7.dll.mdb
