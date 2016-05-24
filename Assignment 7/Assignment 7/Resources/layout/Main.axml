@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:backgroundTint="#f0ffffff">
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="wrap_content"
@@ -40,7 +41,9 @@
         android:layout_width="104.0dp"
         android:layout_height="wrap_content"
         android:id="@+id/btn_Login"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:background="@android:color/holo_green_light"
+        android:textColor="@android:color/background_dark" />
     <Button
         android:text="Register"
         android:layout_width="104.5dp"
@@ -49,5 +52,6 @@
         android:layout_gravity="center"
         android:visibility="visible"
         android:backgroundTint="#0000ff00"
-        android:textAllCaps="false" />
+        android:textAllCaps="false"
+        android:background="@android:color/holo_purple" />
 </LinearLayout>
