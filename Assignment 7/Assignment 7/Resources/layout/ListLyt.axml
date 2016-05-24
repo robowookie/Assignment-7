@@ -18,12 +18,16 @@
             android:text="Search"
             android:layout_width="196.5dp"
             android:layout_height="wrap_content"
-            android:id="@+id/button1" />
+            android:id="@+id/button1"
+            android:background="@android:color/holo_green_light"
+            android:textColor="@android:color/background_dark" />
         <Button
             android:text="Add New"
             android:layout_width="190.0dp"
             android:layout_height="wrap_content"
             android:id="@+id/button2"
-            android:layout_marginLeft="0.0dp" />
+            android:layout_marginLeft="0.0dp"
+            android:background="@android:color/holo_green_light"
+            android:textColor="@android:color/background_dark" />
     </LinearLayout>
 </LinearLayout>

@@ -53,5 +53,6 @@
         android:visibility="visible"
         android:backgroundTint="#0000ff00"
         android:textAllCaps="false"
-        android:background="@android:color/holo_purple" />
+        android:background="@android:color/holo_purple"
+        android:textColor="@android:color/holo_green_light" />
 </LinearLayout>

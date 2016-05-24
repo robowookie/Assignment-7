@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/txtBsnssNm"
             android:textSize="30dp"
-            android:textColor="#FF0099cc"
+            android:textColor="@android:color/background_light"
             android:padding="5dp" />
         <TextView
             android:text="Date"
@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/txtBsnssNm"
             android:textSize="30dp"
-            android:textColor="#FF0099cc"
+            android:textColor="@android:color/holo_purple"
             android:padding="5dp" />
         <TextView
             android:text="$"
@@ -36,7 +36,7 @@
             android:layout_below="@+id/txtBsnssNm"
             android:layout_toRightOf="@+id/txtVwDate"
             android:textSize="30dp"
-            android:textColor="#FF0099cc"
+            android:textColor="@android:color/holo_green_light"
             android:paddingLeft="10dp"
             android:paddingBottom="5dp"
             android:paddingRight="5dp"
@@ -49,7 +49,7 @@
             android:layout_below="@+id/txtBsnssNm"
             android:layout_toRightOf="@+id/txtVwDollar"
             android:textSize="30dp"
-            android:textColor="#FF0099cc"
+            android:textColor="@android:color/holo_green_light"
             android:padding="5dp" />
     </RelativeLayout>
 </LinearLayout>
