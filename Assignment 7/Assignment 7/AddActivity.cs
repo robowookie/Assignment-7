@@ -14,28 +14,15 @@ using KinveyXamarin;
 
 namespace Assignment_7
 {
-    [Activity(Label = "ListActivity")]
-    public class ListActivity : Activity
+    [Activity(Label = "AddActivity")]
+    public class AddActivity : Activity
     {
-        databaseManager dbMan;
-        Client kinveyClient;
-        Button btn_addNew;
-
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            SetContentView(Resource.Layout.ListLyt);
-
-            btn_addNew = FindViewById<Button>(Resource.Id.button2);
-
-            btn_addNew.Click += Btn_addNew_Click;
-        }
-
-        private void Btn_addNew_Click(object sender, EventArgs e)
-        {
-            StartActivity(typeof(AddActivity));
+            SetContentView(Resource.Layout.SaveRecordLyt);
         }
     }
 }
