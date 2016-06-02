@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1">
+        <TextView
+            android:text="Business"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_business"
+            android:padding="5dp" />
+        <TextView
+            android:text="Product Name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_name"
+            android:padding="5dp"
+            android:layout_below="@+id/tv_business" />
+        <TextView
+            android:text="$"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_dollar"
+            android:layout_below="@+id/tv_business"
+            android:layout_toRightOf="@+id/tv_name"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:textColor="@android:color/holo_green_light" />
+        <TextView
+            android:text="Price"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_price"
+            android:padding="5dp"
+            android:layout_below="@+id/tv_business"
+            android:layout_toRightOf="@+id/tv_dollar"
+            android:textColor="@android:color/holo_green_light" />
+        <TextView
+            android:text="Tax Invoice: "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_tax"
+            android:padding="5dp"
+            android:layout_below="@+id/tv_name" />
+        <TextView
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_taxNum"
+            android:padding="5dp"
+            android:layout_below="@+id/tv_name"
+            android:layout_toRightOf="@+id/tv_tax" />
+        <TextView
+            android:text="GST #: "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_gst"
+            android:padding="5dp"
+            android:layout_below="@+id/tv_tax" />
+        <TextView
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_gstNum"
+            android:padding="5dp"
+            android:layout_below="@+id/tv_tax"
+            android:layout_toRightOf="@+id/tv_gst" />
+        <TextView
+            android:text="Tag: "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_tag"
+            android:padding="5dp"
+            android:layout_below="@+id/tv_gst" />
+        <TextView
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_tagEntry"
+            android:padding="5dp"
+            android:layout_below="@+id/tv_gst"
+            android:layout_toRightOf="@+id/tv_tag" />
+        <TextView xmlns:tools="http://schemas.android.com/tools"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_business"
+            android:id="@+id/tv_id"
+            tools:visibility="invisible" />
+    </RelativeLayout>
+</LinearLayout>

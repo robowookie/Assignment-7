@@ -51,5 +51,18 @@ namespace Assignment_7
                 StartActivity(typeof(MainActivity));
             }
         }
+
+        protected override void OnDestroy()
+        {
+            if (kinveyClient.User().isUserLoggedIn())
+            {
+                kinveyClient.User().Logout();
+            }
+        }
+
+        public override void OnBackPressed()
+        {
+            StartActivity(typeof(MainActivity));
+        }
     }
 }

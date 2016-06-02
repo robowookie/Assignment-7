@@ -129,6 +129,10 @@ C:\Users\toshiba\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\Deb
 C:\Users\toshiba\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\Debug\uploadflags.txt
 C:\Users\toshiba\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\Debug\Assignment 7.dll.mdb
 C:\Users\toshiba\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\bin\Debug\Assignment 7.dll.mdb
-C:\Users\littl_000\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\Debug\Assignment 7.csprojResolveAssemblyReference.cache
+C:\Users\littl_000\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\Debug\res\layout\searchlyt.xml
+C:\Users\littl_000\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\Debug\res\layout\searchresult.xml
+C:\Users\littl_000\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\Debug\res\layout\childlyt.xml
+C:\Users\littl_000\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\Debug\res\layout\editrecordlyt.xml
+C:\Users\littl_000\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\Debug\res\layout\customsearch.xml
 C:\Users\littl_000\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\obj\Debug\Assignment 7.dll.mdb
 C:\Users\littl_000\Documents\GitHub\Assignment-7\Assignment 7\Assignment 7\bin\Debug\Assignment 7.dll.mdb

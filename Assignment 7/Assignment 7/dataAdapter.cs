@@ -46,9 +46,12 @@ namespace Assignment_7
             var item = items[position];
             View view = convertView;
 
-            //if (view == null)
-            //    view = context.LayoutInflater.Inflate(Resource.Layout.customRow, null);
-            //view.FindViewById<TextView>(Resource.Id.tv_titleNew).Text = item.title;
+            if (view == null)
+                view = context.LayoutInflater.Inflate(Resource.Layout.CostumRw, null);
+            view.FindViewById<TextView>(Resource.Id.txtBsnssNm).Text = item.business;
+            view.FindViewById<TextView>(Resource.Id.txtVwPrice).Text = item.productTotal.ToString();
+            view.FindViewById<TextView>(Resource.Id.txtVwDate).Text = item.dateAndTime.ToShortDateString();
+            view.FindViewById<TextView>(Resource.Id.tv_id).Text = item.id.ToString();
 
             //view.FindViewById<ImageView>(Resource.Id.imageView1).SetImageResource(item.image);
 

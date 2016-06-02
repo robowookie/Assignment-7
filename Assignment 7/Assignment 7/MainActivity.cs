@@ -25,6 +25,14 @@ namespace Assignment_7
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
+            dbMan = new databaseManager();
+            kinveyClient = dbMan.buildClient();
+
+            if (kinveyClient.User().isUserLoggedIn())
+            {
+                kinveyClient.User().Logout();
+            }
+
             edttxtUser = FindViewById<EditText>(Resource.Id.edttxtUser);
             edttxtPass = FindViewById<EditText>(Resource.Id.edttxtPass);
             btn_Login = FindViewById<Button>(Resource.Id.btn_Login);
@@ -43,13 +51,24 @@ namespace Assignment_7
 
         private async void Btn_Login_Click(object sender, EventArgs e)
         {
-            databaseManager dbMan = new databaseManager();
-            kinveyClient = dbMan.buildClient();
             bool success = await dbMan.loginUser(edttxtUser.Text, edttxtPass.Text);
             if (success == true)
             {
                 StartActivity(typeof(ListActivity));
             }
+        }
+
+        protected override void OnDestroy()
+        {
+            if (kinveyClient.User().isUserLoggedIn())
+            {
+                kinveyClient.User().Logout();
+            }
+        }
+
+        public override void OnBackPressed()
+        {
+            
         }
     }
 }

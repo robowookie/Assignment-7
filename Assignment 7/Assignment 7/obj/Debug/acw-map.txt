@@ -1,3 +1,15 @@
+Assignment_7.dataAdapterSearch, Assignment 7;md505a838b87c199035c6a8a2c7cdbf309f.dataAdapterSearch
+Assignment_7.dataAdapterSearch, Assignment 7, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md505a838b87c199035c6a8a2c7cdbf309f.dataAdapterSearch
+Assignment_7.dataAdapterSearch;md505a838b87c199035c6a8a2c7cdbf309f.dataAdapterSearch
+assignment_7.dataAdapterSearch;md505a838b87c199035c6a8a2c7cdbf309f.dataAdapterSearch
+Assignment_7.ResultActivity, Assignment 7;md505a838b87c199035c6a8a2c7cdbf309f.ResultActivity
+Assignment_7.ResultActivity, Assignment 7, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md505a838b87c199035c6a8a2c7cdbf309f.ResultActivity
+Assignment_7.ResultActivity;md505a838b87c199035c6a8a2c7cdbf309f.ResultActivity
+assignment_7.ResultActivity;md505a838b87c199035c6a8a2c7cdbf309f.ResultActivity
+Assignment_7.SearchActivity, Assignment 7;md505a838b87c199035c6a8a2c7cdbf309f.SearchActivity
+Assignment_7.SearchActivity, Assignment 7, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md505a838b87c199035c6a8a2c7cdbf309f.SearchActivity
+Assignment_7.SearchActivity;md505a838b87c199035c6a8a2c7cdbf309f.SearchActivity
+assignment_7.SearchActivity;md505a838b87c199035c6a8a2c7cdbf309f.SearchActivity
 Assignment_7.AddActivity, Assignment 7;md505a838b87c199035c6a8a2c7cdbf309f.AddActivity
 Assignment_7.AddActivity, Assignment 7, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md505a838b87c199035c6a8a2c7cdbf309f.AddActivity
 Assignment_7.AddActivity;md505a838b87c199035c6a8a2c7cdbf309f.AddActivity
@@ -18,6 +30,10 @@ Assignment_7.RegisterActivity, Assignment 7;md505a838b87c199035c6a8a2c7cdbf309f.
 Assignment_7.RegisterActivity, Assignment 7, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md505a838b87c199035c6a8a2c7cdbf309f.RegisterActivity
 Assignment_7.RegisterActivity;md505a838b87c199035c6a8a2c7cdbf309f.RegisterActivity
 assignment_7.RegisterActivity;md505a838b87c199035c6a8a2c7cdbf309f.RegisterActivity
+Assignment_7.ViewActivity, Assignment 7;md505a838b87c199035c6a8a2c7cdbf309f.ViewActivity
+Assignment_7.ViewActivity, Assignment 7, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md505a838b87c199035c6a8a2c7cdbf309f.ViewActivity
+Assignment_7.ViewActivity;md505a838b87c199035c6a8a2c7cdbf309f.ViewActivity
+assignment_7.ViewActivity;md505a838b87c199035c6a8a2c7cdbf309f.ViewActivity
 KinveyXamarinAndroid.KinveyGCMService, Kinvey-Xamarin-Android;md5ac94a677a11273e2eafc60527165404e.KinveyGCMService
 KinveyXamarinAndroid.KinveyGCMService, Kinvey-Xamarin-Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5ac94a677a11273e2eafc60527165404e.KinveyGCMService
 KinveyXamarinAndroid.KinveyGCMService;md5ac94a677a11273e2eafc60527165404e.KinveyGCMService

@@ -51,5 +51,12 @@
             android:textSize="30dp"
             android:textColor="@android:color/holo_green_light"
             android:padding="5dp" />
+        <TextView
+            android:text="Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/txtVwPrice"
+            android:id="@+id/tv_id"
+            android:visibility="invisible" />
     </RelativeLayout>
 </LinearLayout>

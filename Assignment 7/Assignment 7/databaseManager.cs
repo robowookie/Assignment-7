@@ -24,71 +24,176 @@ namespace Assignment_7
 
         public Client buildClient()
         {
-            kinveyClient = new Client.Builder(appKey, appSecret)
+            try
+            {
+                kinveyClient = new Client.Builder(appKey, appSecret)
             .setLogger(delegate (string msg) { Console.WriteLine(msg); })
             .setFilePath(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal))
             .setOfflinePlatform(new SQLitePlatformAndroid())
             .build();
 
-            if (kinveyClient.User().isUserLoggedIn())
-            {
-                kinveyClient.User().Logout();
+                return kinveyClient;
             }
-
-            return kinveyClient;
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                return null;
+            }
         }
 
-        public async void addItem(string user, string business, DateTime dateAndTime, string taxInvoice,
+        public void isLoggedIn()
+        {
+            try
+            {
+                if (kinveyClient.User().isUserLoggedIn())
+                {
+                    kinveyClient.User().Logout();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+        }
+
+        public async void addItem(string business, DateTime dateAndTime, string taxInvoice,
             string gstNum, string serverName, string productName, double productTotal, string phone,
             string address, string tag, byte[] image)
         {
-            ReceiptClass item = new ReceiptClass();
+            try
+            {
+                ReceiptClass item = new ReceiptClass();
 
-            item.user = user;
-            item.business = business;
-            item.dateAndTime = dateAndTime;
-            item.taxInvoice = taxInvoice;
-            item.gstNum = gstNum;
-            item.serverName = serverName;
-            item.productName = productName;
-            item.productTotal = productTotal;
-            item.phone = phone;
-            item.address = address;
-            item.tag = tag;
-            item.image = image;
+                item.user = kinveyClient.ClientUsers.CurrentUser;
+                item.business = business;
+                item.dateAndTime = dateAndTime;
+                item.taxInvoice = taxInvoice;
+                item.gstNum = gstNum;
+                item.serverName = serverName;
+                item.productName = productName;
+                item.productTotal = productTotal;
+                item.phone = phone;
+                item.address = address;
+                item.tag = tag;
+                item.image = image;
 
-            AsyncAppData<ReceiptClass> myBook = kinveyClient.AppData<ReceiptClass>(tblName, typeof(ReceiptClass));
-            ReceiptClass saved = await myBook.SaveAsync(item);
+                AsyncAppData<ReceiptClass> myBook = kinveyClient.AppData<ReceiptClass>(tblName, typeof(ReceiptClass));
+                ReceiptClass saved = await myBook.SaveAsync(item);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
         }
 
         public async void editItem(string editID, ReceiptClass newList)
         {
-            AsyncAppData<ReceiptClass> myBook = kinveyClient.AppData<ReceiptClass>(tblName, typeof(ReceiptClass));
-            ReceiptClass editList = await myBook.GetEntityAsync(editID);
+            try
+            {
+                AsyncAppData<ReceiptClass> myBook = kinveyClient.AppData<ReceiptClass>(tblName, typeof(ReceiptClass));
+                ReceiptClass editList = await myBook.GetEntityAsync(editID);
 
-            editList = newList;
+                editList = newList;
 
-            ReceiptClass saved = await myBook.SaveAsync(editList);
+                ReceiptClass saved = await myBook.SaveAsync(editList);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+            
         }
 
         public async void deleteItem(string editID)
         {
-            if (editID != "")
+            try
             {
-                AsyncAppData<ReceiptClass> myBook = kinveyClient.AppData<ReceiptClass>(tblName, typeof(ReceiptClass));
-                await myBook.DeleteAsync(editID);
+                if (editID != "")
+                {
+                    AsyncAppData<ReceiptClass> myBook = kinveyClient.AppData<ReceiptClass>(tblName, typeof(ReceiptClass));
+                    await myBook.DeleteAsync(editID);
+                }
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+            
         }
 
         public async Task<List<ReceiptClass>> getAllItems()
         {
-            List<ReceiptClass> templist = new List<ReceiptClass>();
-            AsyncAppData<ReceiptClass> item = kinveyClient.AppData<ReceiptClass>(tblName, typeof(ReceiptClass));
-            ReceiptClass[] itemList = await item.GetAsync();
+            try
+            {
+                List<ReceiptClass> templist = new List<ReceiptClass>();
+                AsyncAppData<ReceiptClass> item = kinveyClient.AppData<ReceiptClass>(tblName, typeof(ReceiptClass));
+                ReceiptClass[] itemList = await item.GetAsync();
 
-            templist = itemList.Where(p => p.user == kinveyClient.ClientUsers.CurrentUser).ToList();
+                templist = itemList.Where(p => p.user == kinveyClient.ClientUsers.CurrentUser).ToList();
 
-            return templist;
+                return templist;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                return null;
+            }
+            
+        }
+
+        public async Task<List<ReceiptClass>> getOneItem(string ID)
+        {
+            try
+            {
+                List<ReceiptClass> templist = new List<ReceiptClass>();
+                AsyncAppData<ReceiptClass> item = kinveyClient.AppData<ReceiptClass>(tblName, typeof(ReceiptClass));
+                ReceiptClass[] itemList = await item.GetAsync();
+
+                templist = itemList.Where(p => p.user == kinveyClient.ClientUsers.CurrentUser && p.id == ID).ToList();
+
+                return templist;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                return null;
+            }
+        }
+
+        public async Task<List<ReceiptClass>> searchItems(string business, string tax, string gst, string productName, double productPrice, string tag)
+        {
+            try
+            {
+
+
+                //List<ReceiptClass> templist = new List<ReceiptClass>();
+                //AsyncAppData<ReceiptClass> item = kinveyClient.AppData<ReceiptClass>(tblName, typeof(ReceiptClass));
+                //ReceiptClass[] itemList = await item.GetAsync();
+
+                //templist = itemList.Where(p => p.user == kinveyClient.ClientUsers.CurrentUser).ToList();
+
+                //return templist;
+                List<ReceiptClass> templist = new List<ReceiptClass>();
+
+                AsyncAppData<ReceiptClass> item = kinveyClient.AppData<ReceiptClass>(tblName, typeof(ReceiptClass));
+                ReceiptClass[] itemList = await item.GetAsync();
+
+                templist = itemList.Where(p => p.user == kinveyClient.ClientUsers.CurrentUser)
+                    .Where(x => string.IsNullOrEmpty(x.business) || x.business == business)
+                        //.Where(x => string.IsNullOrEmpty(x.taxInvoice) || x.taxInvoice == tax)
+                        //.Where(x => string.IsNullOrEmpty(x.gstNum) || x.gstNum == gst)
+                        //.Where(x => string.IsNullOrEmpty(x.productName) || x.productName == productName)
+                        //.Where(x => x.productTotal == 0 || x.productTotal == productPrice)
+                        //.Where(x => string.IsNullOrEmpty(x.tag) || x.tag == tag)
+                        .ToList();
+
+                return templist;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                return null;
+            }
         }
 
         public async Task<bool> loginUser(string username, string password)
